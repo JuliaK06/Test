@@ -83,7 +83,7 @@ for(int i=0;i<5;i++) {
                 for(String s:brokers){
                 System.out.println( s);}*/
                 output.println(city1);
-                for(String s:brokers){
+              for(String s:brokers){
                     output.println( s);}
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
