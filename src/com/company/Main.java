@@ -76,12 +76,12 @@ for(int i=0;i<5;i++) {
                     cityApCounter.put(entry.getKey(), entry.getValue());
                 }
                 numApartments=cityApCounter;
-                File file2=new File("output.txt");
+                File file2=new File(absolutePath+"/output.txt");
                 output=new PrintWriter(file2);
 
-                System.out.println(city1);
+             /*   System.out.println(city1);
                 for(String s:brokers){
-                System.out.println( s);}
+                System.out.println( s);}*/
                 output.println(city1);
                 for(String s:brokers){
                     output.println( s);}
